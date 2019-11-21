@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1976D2"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Menu Principal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:text="Jugar"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/boton"
+            android:layout_marginBottom="15dp"></Button>
+
+        <Button
+            android:id="@+id/btnVerPuntaje"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Ver Puntaje"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/boton"
+            android:layout_marginBottom="15dp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnVerRespuesta"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Ver Respuesta Correcta"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/boton"
+            android:layout_marginBottom="15dp">
+        </Button>
+        <Button
+            android:id="@+id/btnDatos"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Mis Datos"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/boton"
+            android:layout_marginBottom="15dp">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
